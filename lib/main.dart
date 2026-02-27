@@ -20,4 +20,10 @@ class CartModel extends ChangeNotifier {
     _items.add(itemName); 
     notifyListeners(); 
   }
+
+  void removeAll() {
+    _items.clear(); 
+    notifyListeners(); 
+    
+  }
 }
