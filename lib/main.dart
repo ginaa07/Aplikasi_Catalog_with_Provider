@@ -123,10 +123,13 @@ class MyCart extends StatelessWidget {
               itemCount: cart.items.length,
               itemBuilder: (context, index) => ListTile(
                 leading: const Icon(Icons.fastfood),
-                title: Text(cart.items[index]),
-              ),
+                title: Text(cart.items[index])),
             ),
           ),
+          const Divider(),
+          Padding(
+            padding: const EdgeInsets.all(20),
+            
         ],
       ),
     );
