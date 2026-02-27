@@ -94,10 +94,23 @@ class AddButton extends StatelessWidget {
 
     return TextButton(
       onPressed: isIncart 
-      ? null : () {
+      ? null 
+      : () {
         context.read<CartModel>().add(item); 
       },
       child: isIncart ? const Icon(Icons.check, color: Colors.green) : const Text('Tambah'),
     );
+  }
+}
+
+//Halaman Keranjang
+class MyCart extends StatelessWidget {
+  const MyCart({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    var cart = context.watch<CartModel>();
+
+    return Scaffold(
   }
 }
