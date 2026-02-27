@@ -112,5 +112,11 @@ class MyCart extends StatelessWidget {
     var cart = context.watch<CartModel>();
 
     return Scaffold(
+      appBar: AppBar(title: const Text('Keranjang Belanja')),
+      body: Column(
+        children: [
+          Expanded()
+        ],
+      ),
   }
 }
