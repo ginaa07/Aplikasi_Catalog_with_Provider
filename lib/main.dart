@@ -98,7 +98,7 @@ class AddButton extends StatelessWidget {
       onPressed: isIncart
           ? null
           : () {
-              context.read<CartModel>().add(item);
+              context.read<CartModel>().addItem(item);
             },
       child: isIncart
           ? const Icon(Icons.check, color: Colors.green)
