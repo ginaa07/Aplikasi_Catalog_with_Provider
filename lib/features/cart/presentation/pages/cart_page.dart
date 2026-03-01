@@ -8,6 +8,10 @@ class CartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Sekarang kita memantau CartProvider, bukan CartModel
     var cart = context.watch<CartProvider>();
     return Scaffold(
+      appBar: AppBar(title: const Text('Keranjang Belanja')),
+      body: Column(
+        children: [
+          Expanded(
+            child: ListView.builder(
