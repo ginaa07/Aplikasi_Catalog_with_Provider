@@ -2,6 +2,14 @@
 
 A new Flutter project.
 
+## 📸 Screenshots
+<p align="center">
+  <img src="assets/images/images1.jpeg" width="300" alt="Aplikasi Catalog">
+  <img src="assets/images/images2.jpeg" width="300" alt="Aplikasi Catalog">
+  <img src="assets/images/images3.jpeg" width="300" alt="Aplikasi Catalog">
+</p>
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
