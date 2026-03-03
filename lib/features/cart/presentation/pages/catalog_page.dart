@@ -11,6 +11,7 @@ class CatalogPage extends StatelessWidget {
     Product(id: '2', name: 'Sate Ayam', price: 20000),
     Product(id: '3', name: 'Es Teh', price: 5000),
     Product(id: '4', name: 'Es Jeruk', price: 7000),
+    Product(id: '5', name: 'Steak', price: 200000),
     
   ];
 
