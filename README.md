@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## 👤 Profil Pengembang
+- **Nama** : Regina Safarina
+- **Kelas** : TI SE 23 P2
+- **Prodi** : Teknik Informatika | Software Engineering
+
+
 ## 📸 Screenshots
 <p align="center">
   <img src="assets/images/images1.jpeg" width="300" alt="Aplikasi Catalog">
